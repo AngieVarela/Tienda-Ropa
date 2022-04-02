@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1></h1>
+    <!--<p class="lead">¡Encuentra los mejores estilos y que la moda no te abandone!</p> -->
+</div>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Vestuario", "Index", "Vestuarios")</h2>   
+            <img src="~/Imagenes/Ropa.JPG", width="300px", height="350px", style="animation" />
+            <p> </p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Calzado", "Index", "Calzadoes")</h2>
+        <img src="~/Imagenes/Tennis.JPG" , width="300px" , height="350px" />
+        <p> </p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Articulos", "Index", "Articulos")</h2>
+        <img src="~/Imagenes/Accesorios.JPG" , width="300px" , height="350px" /> 
+        <p> </p>
+    </div>
+</div>
